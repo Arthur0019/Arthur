@@ -557,7 +557,7 @@ label {
 
 /* mobile styles */
 
-@media (min-width: 100px) and (max-width: 400px) {
+@media (min-width: 100px) and (max-width: 896px) {
   .content {
     max-width: 300px;
   }
@@ -646,7 +646,7 @@ label {
   animation: 1s blink step-end infinite;
 }
 
-@keyframes "blink" {
+@keyframes blink {
   from,
   to {
     color: transparent;
@@ -666,7 +666,7 @@ label {
   }
 }
 
-@-webkit-keyframes "blink" {
+@-webkit-keyframes blink {
   from,
   to {
     color: transparent;
@@ -676,7 +676,7 @@ label {
   }
 }
 
-@-ms-keyframes "blink" {
+@-ms-keyframes blink {
   from,
   to {
     color: transparent;
@@ -686,7 +686,7 @@ label {
   }
 }
 
-@-o-keyframes "blink" {
+@-o-keyframes blink {
   from,
   to {
     color: transparent;
