@@ -1,3 +1,13 @@
+const indicator = document.querySelector('#indicator');
+
+const maxHeight = document.body.scrollHeight - window.innerHeight;
+
+window.addEventListener('scroll', () => {
+  const percentage = (window.scrollY / maxHeight) * 45;
+
+  indicator.style.width = `${percentage}%`;
+  });
+
 $(document).ready(function () {
   // typing animation
   (function ($) {
